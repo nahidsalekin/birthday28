@@ -1,1 +1,1 @@
-https://github.com/nahidsalekin/birthday28
+https://nahidsalekin.github.io/birthday28
