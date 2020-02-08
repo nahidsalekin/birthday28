@@ -546,6 +546,11 @@ p.sign {
     }
 }
 
+.lightrope,
+#card {
+    display: none;
+}
+
 
 /* not important */
 
@@ -558,7 +563,7 @@ p.sign {
     bottom: -200px;
 }
 
-.balloons-rotate-behaviour-one {
+.rotate-style-1 {
     -webkit-animation: balloons_rotate_one linear 10s infinite;
     -webkit-transform: rotate(30deg);
     -moz-animation: balloons_rotate_one linear 10s infinite;
@@ -631,7 +636,7 @@ p.sign {
     }
 }
 
-.balloons-rotate-behaviour-two {
+.rotate-style-2 {
     -webkit-animation: balloons_rotate_two linear 10s infinite;
     -webkit-transform: rotate(-20deg);
     -moz-animation: balloons_rotate_two linear 10s infinite;

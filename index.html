@@ -112,7 +112,7 @@
                             <img src="./cake.jpg" alt="Birthday Cake">
                         </p>
                         <p id="main-text">Dear Ma'am,<br>In just a few days, you have become a very favourite person to me. It’s not possible to forget some people, you are one of them. I feel thankful that you trust me. Someday I will leave the campus and never see you
-                            again. Time goes on but memories never fade away. Keep smiling Ma’am, and never get upset.</p>
+                            again. Time goes on but memories never fade away. Keep smiling Ma’am, and never get upset....</p>
                     </div>
                     <p class="sign">Salekin</p>
                     <button id="close"><i class="fa fa-sign-out" style="font-size:30px"></i></button>
@@ -137,10 +137,15 @@
 
 
     <script>
-       
+        // $(window).load(function() {
+        //     $('.container-bg').fadeIn('fast');
+        // });
+
         function off() {
             var audio = $('.song')[0];
             audio.play();
+            $(".lightrope").fadeIn("fast");
+            $("#card").fadeIn("fast");
             $("#overlay").fadeOut("slow");
             $("#main-text").fadeOut("fast");
             $(".sign").fadeOut("fast");
@@ -224,8 +229,8 @@
                 });
             }
 
-            $('#b1,#b4').addClass('balloons-rotate-behaviour-one');
-            $('#b2,#b3').addClass('balloons-rotate-behaviour-two');
+            $('#b1,#b4').addClass('rotate-style-1');
+            $('#b2,#b3').addClass('rotate-style-2');
             loopOne();
             loopTwo();
             loopThree();
